@@ -1,0 +1,231 @@
+/***** Main Heading For the Page *******/ 
+header {
+    background-image: url(img/head-img.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+#heading {
+    margin-top: 35vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    font-size: 2.8em;
+    padding: 3px 8px 3px 3px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: 'Ubuntu Mono';
+}
+#tag-line {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 3px 8px 3px 3px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: 'Ubuntu Mono';
+}
+#bloggers {
+    color: rgb(153, 34, 68);
+}
+#bloggers:hover {
+    color: rgb(173, 54, 88);
+}
+#tweeters {
+    color: rgb(42, 170, 224);
+}
+#tweeters:hover {
+    color: rgb(62, 190, 244);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+/*****  Section Describing the site  *****/
+section {
+    border-bottom: 1px dashed rgb(153, 34, 68);
+    padding: 30px auto;
+    margin-bottom: 30px
+}
+section p {
+    text-align: center;
+    color: grey;
+    margin: 30px auto;
+    font-size: 1.5em;
+}
+
+
+
+/*****  Links to all relevant websites  ******/
+.row {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.blog-logos {
+    height: 250px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: center no-repeat;
+    background-size: cover;
+    opacity: 0;
+}
+.info {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    float: left;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 20% 10px;
+    font-size: 1.2em;
+}
+#smashing-mag {
+    background-image: url(img/smashmag.png);
+    background-size: contain;
+}
+#csstricks {
+    background-image: url(img/csstricks.png);
+}
+#sitepoint {
+    background-image: url(img/sitepoint.png);
+}
+#tnw {
+    background-image: url(img/tnw.png);
+}
+#github {
+    background-image: url(img/github.jpg);
+}
+#tuts {
+    background-image: url(img/tuts.jpg);
+}
+#codrops {
+    background-image: url(img/codrops.png);
+}
+#wpbeginner {
+    background-image: url(img/wpbeginner.png);
+}
+#dzone {
+    background-image: url(img/dzone.png);
+}
+#treehouse {
+    background-image: url(img/treehouse.png);
+}
+#firstwebdev {
+    background-image: url(img/firstwebdev.png);
+}
+#webdesignerdepot {
+    background-image: url(img/webdesignerdepot.png);
+}
+#alistapart {
+    background-image: url(img/alistapart.jpeg);
+}
+#speckyboy {
+    background-image: url(img/speckyboy.png);
+}
+#wdl {
+    background-image: url(img/wdl.png);
+}
+#onextrapixel {
+    background-image: url(img/onextrapixel.jpg);
+}
+#noupe {
+    background-image: url(img/noupe.png);
+}
+#twenty4ways {
+    background-image: url(img/twenty4ways.png);
+}
+#tempmonster {
+    background-image: url(img/tempmonster.jpg);
+}
+#designshack {
+    background-image: url(img/designshack.jpg);
+}
+#awwwards {
+    background-image: url(img/awwwards.jpg);
+}
+#jqueryrain {
+    background-image: url(img/jqueryrain.png);
+}
+#hongkiat {
+    background-image: url(img/hongkiat.png);
+}
+#creativebloq {
+    background-image: url(img/creativebloq.jpg);
+}
+#yoast {
+    background-image: url(img/yoast.png);
+}
+#designmodo {
+    background-image: url(img/designmodo.png);
+}
+#sixrevisions {
+    background-image: url(img/sixrevisions.jpg);
+}
+#webappers {
+    background-image: url(img/webappers.jpg);
+}
+#spyre {
+    background-image: url(img/spyre.png);
+}
+#smashapps {
+    background-image: url(img/smashapps.jpg);
+}
+#queness {
+    background-image: url(img/queness.jpg);
+}
+#davidwalsh {
+    background-image: url(img/davidwalsh.png);
+}
+#designmag {
+    background-image: url(img/designmag.jpg);
+}
+#designrfix {
+    background-image: url(img/designrfix.jpg);
+}
+#webupd8 {
+    background-image: url(img/webupd8.png);
+}
+#smashhub {
+    background-image: url(img/smashhub.jpeg);
+}
+#siteinspire {
+    background-image: url(img/siteinspire.png);
+}
+#bittbox {
+    background-image: url(img/bittbox.png);
+}
+#designfloat {
+    background-image: url(img/designfloat.jpg);
+}
+#codinghorror {
+    background-image: url(img/codinghorror.png);
+}
+#uxmovement {
+    background-image: url(img/uxmovement.png);
+}
+#ourtuts {
+    background-image: url(img/ourtuts.jpg);
+}
+
+/*******   Media Queries  ************/
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    #heading {
+        font-size: 6em;
+    }
+    #tag-line {
+        font-size: 3em;
+    }
+}
+  
